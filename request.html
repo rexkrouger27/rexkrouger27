@@ -20,7 +20,8 @@
 					xhr.open('GET', 'https://api.music.core2duo.fr/bot/1/');
 					xhr.onreadystatechange = function() {
  					if (xhr.readyState === 4) {
-  					  alert(xhr.responseText);
+						 var reponse = JSON.parse(xhr.responseText);
+  					 	 alert(xhr.responseText);
   						}
 					};
 					xhr.send();
