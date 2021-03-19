@@ -1,9 +1,11 @@
 $("#more_com").click(function(){
      
     $.ajax({
-       url : 'https://api.music.core2duo.fr/bot/1', 
+       url : 'https://api.music.core2duo.fr/bot/', 
        type : 'GET',
-       data : 'utilisateur=' + nom_user
+       username: 'bot_spotify',
+       password: 'b3auty0fth3m0ula',
+       
     });
    
 });
