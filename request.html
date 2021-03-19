@@ -15,6 +15,17 @@
 		<h2 id="content">Offline Bots</h2>
 			<div class="row">
 				<span class="image left"><img src="jspasactif.png" id="masuperimage" /></span>
+				<SCRIPT language="JavaScript" type="text/javascript">
+ 					var xhr = new XMLHttpRequest(); 
+					xhr.open('GET', 'https://jsonplaceholder.typicode.com/users/1');
+					xhr.onreadystatechange = function() {
+ 					if (xhr.readyState === 4) {
+  					  alert(xhr.responseText);
+  						}
+					};
+					xhr.send();
+
+				</SCRIPT>
  				<SCRIPT language="JavaScript" type="text/javascript">
  					var images = new Array();
 					images.push("images/offline.png");
