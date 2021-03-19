@@ -1,16 +1,4 @@
 <?php
-/*---------------------------------------------------------------*/
-/*
-    Titre : Affiche date et heure dynamiquement                                                                           
-                                                                                                                          
-    URL   : https://phpsources.net/code_s.php?id=664
-    Date édition     : 16 Sept 2012                                                                                       
-    Date mise à jour : 16 Aout 2019                                                                                      
-    Rapport de la maj:                                                                                                    
-    - fonctionnement du code vérifié                                                                                    
-*/
-/*---------------------------------------------------------------*/
-
     define('DS', DIRECTORY_SEPARATOR);
     define('BASE_PATH', dirname(__FILE__).DS);
     define('BASE_URL', 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER[
@@ -38,14 +26,4 @@
     </body>
     </html>
 
-    *********
-
-    Sur la page chat.php
-
-<?php
-
-    header("Cache-Control: no-cache");
-    header("Pragma: no-cache");
-
-    echo date('Y-m-d H:i:s');
-?>
+   
