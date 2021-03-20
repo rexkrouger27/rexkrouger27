@@ -20,7 +20,8 @@
 					//,true,'bot_spotify','b3auty0fth3m0ula'
 					xhr.onreadystatechange = function() {
  					 if (xhr.readyState === 4) {
- 					   alert(xhr.responseText);
+ 					    var reponse = JSON.parse(xhr.responseText);
+    						alert(reponse.name);
 					  }
 					};
 					xhr.send();
